@@ -1,0 +1,61 @@
+/* THE LIGHT BLUE BACKGROUND */
+body {
+    background-color: #add8e6; /* Vibrant Light Blue */
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #212529;
+    scroll-behavior: smooth; /* Allows smooth scrolling when clicking links */
+}
+
+/* THE BLUE BRAND NAME */
+.logo-blue {
+    color: #3399ff; /* Bright Sky Blue */
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* BLUE HEADINGS */
+.blue-text {
+    color: #004085;
+}
+
+/* GALLERY SETTINGS */
+#autoGallery img {
+    height: 300px; /* Small and compact gallery */
+    object-fit: cover;
+}
+
+/* PRICING CARDS */
+.pricing-card {
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    border: none;
+}
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+/* FEEDBACK SECTION GRADIENT */
+.feedback-container {
+    background: linear-gradient(135deg, #004085 0%, #007bff 100%);
+    max-width: 800px;
+}
+
+/* THE BLUE BAR (Bottom) */
+.contact-bar {
+    background-color: #007bff;
+    border-top: 3px solid #004085;
+}
+
+/* NAVIGATION HOVER */
+.nav-link {
+    transition: 0.2s;
+}
+.nav-link:hover {
+    color: #ffc107 !important;
+    text-decoration: underline;
+}
+
+/* Ensure navbar stays on top of everything */
+.navbar {
+    z-index: 1050;
+}
